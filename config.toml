@@ -47,5 +47,5 @@ features = ["posts", "shortcodes", "related content", "comments"]
     # YouTube Section
     [params.youtube]
         enable      = true
-        id          = "t1gXAq-Gjsc"
+        id          = "bho9Yuh9uf4"
         title       = "YouTube"

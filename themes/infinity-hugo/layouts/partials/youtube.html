@@ -2,10 +2,11 @@
     {{"<!-- YouTube Section -->" | safeHTML}}
     <section id="youtube" class="youtube-area">
         <div class="videoContainer">
-            <video width="100%" height="100%" controls>
+            <iframe class="videoContainer__video" width="1920" height="1080" src="http://www.youtube.com/embed/{{ with .Site.Params.youtube.id }}{{ . }}{{ end }}?modestbranding=1&autoplay=0&controls=1&fs=0&loop=0&rel=1&showinfo=0&disablekb=1" frameborder="0"></iframe>
+            <!-- <video width="100%" height="100vh" controls>
                 <source src="https://s3-us-west-2.amazonaws.com/david-john-wyatt/david-wyatt-memorium-video-by-rich-and-gabe-wyatt.mp4" type="video/mp4">
                 Your browser does not support the video tag.
-            </video>
+            </video> -->
         </div>
     </section>
 {{ end }}
