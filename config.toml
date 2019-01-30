@@ -1,0 +1,51 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "David John Wyatt - Grundyworks"
+theme = "infinity-hugo"
+features = ["posts", "shortcodes", "related content", "comments"]
+
+[params]
+
+    # Navigation
+    [params.navigation]
+        logo = "images/logo_transparent_small.png"
+        home = "Home"
+        about = "About"
+        service = "Services"
+        contact = "Contact"
+
+    # Hero Area
+    [params.hero]
+        enable      = true
+        bg          = "images/hero-bg.jpg"
+        title       = "DAVID JOHN WYATT"
+        subtitle    = "Beloved brother, friend, father, grandpa, scholar."
+        btnText     = "Let's say..."
+
+        [params.hero.countdown]        
+            enable  = false
+            year    = "2019"
+            month   = "12"
+            day     = "27"
+
+    # About Section
+    [params.about]
+        enable      = true
+        heading     = "What is Grundyworks?"
+        description = "Felix Grundy Wyatt was born in 1858 in Ina, Illinois, USA to father James Wyatt and mother Mary Ann Dunbar.  Felix eventually settled down in Ellensburg, WA, USA and passed away January 1th, 1948 at the age of 90.  Felix Grundy Wyatt was David John Wyatt's great-uncle.  As a fan of Felix's middle name David came up with 'Grundyworks' many years ago as a fun name for a private Facebook group.  We've been using it ever since!"
+        image       = "images/about/felix-grundy-wyatt-2.jpg"
+
+    # photoGallery Section
+    [params.photoGallery]
+        enable      = true
+        heading     = "Photo Gallery"
+        description = "This collection contains all photos gathered by friends and family prior to David's Celebration of Life event on February 3rd, 2019.  If you wish to contribute additional photos to the archive please compress them into a .zip file and email them via the Contact navigation link."
+
+        [[params.photoGallery.sliderItem]]
+            image   = "images/about/1.jpg"
+
+    # YouTube Section
+    [params.youtube]
+        enable      = true
+        id          = "t1gXAq-Gjsc"
+        title       = "YouTube"

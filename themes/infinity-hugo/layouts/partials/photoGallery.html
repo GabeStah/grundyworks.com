@@ -1,0 +1,39 @@
+{{ if .Site.Params.photoGallery.enable }}
+    {{"<!-- photoGallery Section -->" | safeHTML}}
+    <section id="photo-gallery" class="section photo-gallery bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                    <div class="content">
+                        <div class="sub-heading">
+                            {{ with .Site.Params.photoGallery.heading }}
+                                <h3>{{ . }}</h3>
+                            {{ end }}
+                        </div>
+                        {{ with .Site.Params.photoGallery.description }}
+                            <p>{{ . | markdownify }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="photo-gallery-slider">
+                        <div class="wow fadeInDown" data-wow-delay="0.7s" data-wow-duration=".7s">
+                            <a class="btn btn-home" href="https://s3-us-west-2.amazonaws.com/david-john-wyatt/photo-archive.zip" role="button">
+                                Download Photo Archive (.Zip)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 fadeInLeft">
+                    <div class="content">
+                        {{ with .Site.GetPage "/gallery" }}
+                            {{ .Content }}
+                        {{ end }}   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
