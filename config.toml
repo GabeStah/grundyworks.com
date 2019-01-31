@@ -32,7 +32,7 @@ features = ["posts", "shortcodes", "related content", "comments"]
     [params.about]
         enable      = true
         heading     = "What is Grundyworks?"
-        description = "Felix Grundy Wyatt was born in 1858 in Ina, Illinois, USA to father James Wyatt and mother Mary Ann Dunbar.  Felix eventually settled down in Ellensburg, WA, USA and passed away January 1th, 1948 at the age of 90.  Felix Grundy Wyatt was David John Wyatt's great-uncle.  As a fan of Felix's middle name David came up with 'Grundyworks' many years ago as a fun name for a private Facebook group.  We've been using it ever since!"
+        description = "Felix Grundy Wyatt was born in 1858 in Ina, Illinois, USA to father James Wyatt and mother Mary Ann Dunbar.  Felix settled down and lived in Ellensburg, WA, USA before passing away January 15th, 1948 at the age of 90.  Felix Grundy Wyatt was David John Wyatt's great-uncle.  As a fan of Felix's middle name David came up with 'Grundyworks' many years ago as a fun name for a private Facebook group.  We've been using it ever since!"
         image       = "images/about/felix-grundy-wyatt-2.jpg"
 
     # photoGallery Section
